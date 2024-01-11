@@ -10,6 +10,7 @@ age = 25;
 let dob = '35';
 let result = parseInt(dob); // the result variable is of number type through type inference
 //boolean
+let choose = false;
 //array
 let empList;
 empList = ['Quagmire', 'Joe', 'Peter'];
@@ -27,9 +28,12 @@ var Color;
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
 let c = Color.Blue;
-//Tupples
+//Tupples -- can store data of various types
 let swapNumbs;
 function swapNumbers(num1, num2) {
     return [num2, num1];
 }
 swapNumbs = swapNumbers(10, 20);
+// any (any types can be used/stored)
+// never
+//void
